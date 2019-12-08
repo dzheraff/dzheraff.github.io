@@ -63,3 +63,7 @@ $('.returnToTop').click(function(){
 	$('html, body').stop().animate({scrollTop: 0}, 'slow', 'swing');
 });
 // Кнопка наверх конец
+
+AOS.init({
+	once: true,
+});
